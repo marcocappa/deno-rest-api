@@ -1,12 +1,12 @@
-# deno-rest-api
+# Deno Rest API
 
-Deno Rest API
+This is a basic example of a REST API using deno (https://deno.land/)
 
-# install deno
+# Install deno
 
 See instructions here: https://deno.land/#installation
 
-# how to run
+# How to run
 
 Clone this repo and run the command:
 
@@ -14,6 +14,6 @@ Clone this repo and run the command:
 deno run --allow-net server.ts
 ```
 
-# API endpoints available
+# Endpoints
 
 1. "GET api/v1/products" : get all products
