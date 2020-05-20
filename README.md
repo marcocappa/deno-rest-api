@@ -1,6 +1,6 @@
-# deno-rest-api
+# Deno Rest API
 
-Deno Rest API
+This is a basic example of a REST API using deno (https://deno.land/)
 
 # install deno
 
