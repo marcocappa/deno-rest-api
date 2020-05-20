@@ -2,11 +2,11 @@
 
 This is a basic example of a REST API using deno (https://deno.land/)
 
-# install deno
+# Install deno
 
 See instructions here: https://deno.land/#installation
 
-# how to run
+# How to run
 
 Clone this repo and run the command:
 
