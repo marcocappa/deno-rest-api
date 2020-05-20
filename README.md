@@ -14,6 +14,6 @@ Clone this repo and run the command:
 deno run --allow-net server.ts
 ```
 
-# API endpoints available
+# Endpoints
 
 1. "GET api/v1/products" : get all products
