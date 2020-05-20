@@ -9,7 +9,10 @@ app.use(router.allowedMethods());
 
 console.log(`Server running on port: ${port}
 ***** Available enpoints:
-http://localhost:${port}/api/v1/products
-`);
+GET /api/v1/products
+GET /api/v1/products/1
+POST /api/v1/products/:id
+PUT /api/v1/products/:id
+DELETE /api/v1/products/:id`);
 
 await app.listen({ port });
