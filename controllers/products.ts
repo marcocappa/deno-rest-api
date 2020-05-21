@@ -65,7 +65,7 @@ const getProduct = (
 };
 
 // @desc    Add product
-// @route   POST /api/v1/products/:id
+// @route   POST /api/v1/products
 const addProduct = async (
   { request, response }: { request: any; response: any },
 ) => {
