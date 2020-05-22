@@ -11,7 +11,7 @@ See instructions here: https://deno.land/#installation
 Clone this repo and run the command:
 
 ```
-deno run --allow-net server.ts
+deno run --allow-env --allow-net server.ts
 ```
 
 # Endpoints

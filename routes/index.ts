@@ -9,6 +9,11 @@ import {
 
 const router = new Router();
 
+router.get("/", ({ response }: { response: any }) => {
+  response.status = 200;
+  response.body = "Welcome to a basic deno REST API!";
+});
+
 router.get("/api/v1/products", getProducts)
   .get("/api/v1/products/:id", getProduct)
   .post("/api/v1/products", addProduct)
