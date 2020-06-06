@@ -1,5 +1,10 @@
-import { Product } from "../types.ts";
+import { Client } from "https://deno.land/x/postgres/mod.ts";
 import { v4 } from "https://deno.land/std/uuid/mod.ts";
+import { Product } from "../types.ts";
+import { dbCreds } from "../config.ts";
+
+// Init client
+const client = new Client(dbCreds);
 
 let products: Product[] = [
   {
